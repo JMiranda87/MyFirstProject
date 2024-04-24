@@ -1,0 +1,54 @@
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*  Styling my body element */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Targeting my profile card */
+
+.profile-card{
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+h1{
+    color: #333;
+    margin: 10px 0 5px 0;
+}
+
+p{
+    color: #666;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #666;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+
+}
